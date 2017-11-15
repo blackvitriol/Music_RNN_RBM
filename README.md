@@ -5,7 +5,7 @@ Using a Recurrent cell and Restricted Boltzmann Machines to generate music.
 ### TLDR:
 Dependencies
 ```
-pip3 install py-midi matplotlib tqdm pandas 
+pip3 install python-midi matplotlib tqdm pandas 
 ```
 
 You can generate music by cloning the directory and running:
