@@ -30,7 +30,7 @@ def get_songs(path):
             if np.array(song).shape[0] > 50/num_timesteps:
                 songs.append(song)
         except Exception as e:
-            print f, e            
+            print (f, e)            
     return songs
 
 def midiToNoteStateMatrix(midifile, squash=True, span=span):

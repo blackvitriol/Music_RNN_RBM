@@ -1,3 +1,29 @@
+#!/usr/bin/python
+print(
+'''
+                      .__    .__                   
+  _____ _____    ____ |  |__ |__| ____   ____      
+ /     \\__  \ _/ ___\|  |  \|  |/    \_/ __ \     
+|  Y Y  \/ __ \\  \___|   Y  \  |   |  \  ___/     
+|__|_|  (____  /\___  >___|  /__|___|  /\___  >    
+      \/     \/     \/     \/        \/     \/     
+.__machine learning with A7MD0V..__                
+|  |   ____ _____ _______  ____ |__| ____    ____  
+|  | _/ __ \\__  \\_  __ \/    \|  |/    \  / ___\ 
+|  |_\  ___/ / __ \|  | \/   |  \  |   |  \/ /_/  >
+|____/\___  >____  /__|  |___|  /__|___|  /\___  / 
+          \/     \/           \/        \//_____/
+using TensorFlow 1.40 and Python 3.5 ----2017-->
+'''
+)
+
+'''
+RNN-RBM: Recurrent Neural Network and Restricted Boltzmann Machine algorithm
+for preserving temporal dependencies and generating music.
+
+Paper: Modeling Temporal Dependencies in High-Dimensional Sequences: Application to Polyphonic Music Generation and Transcription (Boulanger-Lewandowski 2012).
+'''
+
 import tensorflow as tf
 import numpy as np
 import pandas as pd
