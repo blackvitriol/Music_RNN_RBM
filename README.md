@@ -1,9 +1,9 @@
-Note: this is described in detail here: http://danshiebler.com/2016-08-17-musical-tensorflow-part-two-the-rnn-rbm/
+# RNN-RBM for Music Generation
 
+Using a Recurrent cell and Restricted Boltzmann Machines to generate music.
 
-# Music_RNN_RBM
+credits: this is described in detail here: http://danshiebler.com/2016-08-17-musical-tensorflow-part-two-the-rnn-rbm/
 
-This repository contains code for generating long sequences of polyphonic music by using an RNN_RBM in TensorFlow. 
 
 ### TLDR:
 You can generate music by cloning the directory and running:
