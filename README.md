@@ -2,8 +2,6 @@
 
 Using a Recurrent cell and Restricted Boltzmann Machines to generate music.
 
-credits: this is described in detail here: http://danshiebler.com/2016-08-17-musical-tensorflow-part-two-the-rnn-rbm/
-
 ### TLDR:
 Dependencies
 ```
@@ -34,4 +32,4 @@ python rnn_rbm_generate.py <path_to_ckpt_file>
 ```
 will generate music by using the weights stored in the `path_to_ckpt_file`. You can use the provided file `parameter_checkpoints/pretrained.ckpt`, or you can use one of the ckpt files that you create. When you run `train_rnn_rbm.py`, the model creates a `epoch_<x>.ckpt` file in the parameter_checkpoints directory every couple of epochs. 
 
-
+credits: this is described in detail here: http://danshiebler.com/2016-08-17-musical-tensorflow-part-two-the-rnn-rbm/
