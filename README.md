@@ -4,8 +4,12 @@ Using a Recurrent cell and Restricted Boltzmann Machines to generate music.
 
 credits: this is described in detail here: http://danshiebler.com/2016-08-17-musical-tensorflow-part-two-the-rnn-rbm/
 
-
 ### TLDR:
+Dependencies
+```
+pip3 install py-midi matplotlib tqdm pandas 
+```
+
 You can generate music by cloning the directory and running:
 ```
 python rnn_rbm_generate.py parameter_checkpoints/pretrained.ckpt
